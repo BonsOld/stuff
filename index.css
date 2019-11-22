@@ -1,0 +1,132 @@
+html {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/minecraftregular.eot');
+    src: local('minecraftregular'), url('fonts/minecraftregular.ttf') format('truetype') ;
+}
+
+@font-face {
+    font-family: 'minecraftmainmenu';
+    src: url('fonts/minecraftmainmenu.eot');
+    src: local('minecraftmainmenu'), url('fonts/minecraftmainmenu.ttf') format('truetype') ;
+}
+
+@font-face {
+    font-family: 'mcmenu';
+    src: url('fonts/LogoCraft.eot');
+    src: local('mcmenu'), url('fonts/LogoCraft.ttf') format('truetype');
+}
+
+body {
+    font-family: minecraft;
+    background-attachment: fixed;
+    background-image: url('images/minecraft2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.header {
+    font-family: minecraftmainmenu;
+    text-align: center;
+    color: darkgray;
+    text-shadow: 0px 7px #000000;
+    line-height: 100px;
+    margin: 0;
+    font-size: 70px;
+    position: relative;
+}
+
+@keyframes bounce {
+    0%   { font-size: 30px;}
+    25%  { font-size: 32px;}
+    50%  { font-size: 30px;}
+    75%  { font-size: 32px;}
+    100% { font-size: 30px;}
+}
+
+#bounce {
+    animation: bounce 1s infinite;
+    line-height: 30px;
+    transform: rotate(-20deg);
+    color: yellow;
+    position: absolute;
+    top: 70px;
+    right: 170px;
+    text-shadow: 3px 3px rgb(59, 59, 59);
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+#myProjects {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#myPractices {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#myBooks {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+button {
+    font-family: minecraft;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    width: 400px;
+    height: 75px;
+    background-color: darkgray;
+    border-style: outset;
+    border-width: 4px;
+    border-color: #000000;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+}
+
+button:hover {
+    background-color: rgb(67, 173, 41);
+    color: white;
+    border-color: rgb(67, 173, 41);
+    outline-color: white;
+}
+
+.game {
+    font-family: minecraft;
+    font-size: 2px;
+    color: rgb(54, 54, 54);
+    width: 10px;
+    height: 10px;
+    background-color: darkgray;
+    border-style: outset;
+    border-width: 4px;
+    border-color: #000000;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+}
