@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+    <link rel="shortcut icon" href="images/ski.ico" type="image/x-icon">
+    <title>Extreme Honeymoons | Home</title>
+</head>
+<body onload="preloadImages()">
+    <!--<audio autoplay loop>
+        <source src="sound/maskoff.mp3" type="audio/mpeg">
+    </audio>-->
+    <header>
+        <a href="index.htm" onMouseOver="document.logo.src=logo2.src;"
+        onMouseOut="document.logo.src=logo1.src;">
+    
+            <img src="images/diamondlogo.png" width="150" height="150" 
+            name="logo" alt="logo" class="logoLeft" style="border:none;"/>
+        
+        </a>
+
+        <img src="images/blurrydiamonds.png" alt="banner">
+    </header>
+
+    <section>
+        <nav>
+            <a href="home.htm">Home</a>
+            <br>
+            <a href="aboutus.htm">About Us</a>
+            <br>
+            <a href="tributes.htm">Tributes</a>
+            <br>
+            <a href="fav.htm">My Favorites</a>
+            <br>
+            <a href="survey.htm">Survey</a>
+        </nav>
+
+        <article>
+            <h1>Welcome to Extreme Honeymoons!</h1>
+            <p>
+                If you are just getting hitched, we can help make your honeymoon outrageous.
+                Take a look at our Excursions and take the opportunity to complete our survey.
+            </p>
+
+            <!--Scroll over images-->
+            <div id="thumbs">
+                    <img src="images/thumbnail/Image1Sm.jpg" alt="Dog doing Trick" onmouseover="swapImage(0);" />
+                    <img src="images/thumbnail/Image2Sm.jpg" alt="Two hunting Dogs" onmouseover="swapImage(1);" />
+                    <img src="images/thumbnail/Image3Sm.jpg" alt="Dog and two kids" onmouseover="swapImage(2);" />
+                    <img src="images/thumbnail/Image4Sm.jpg" alt="Woman and Dog" onmouseover="swapImage(3);" />        
+            </div>
+
+            <div id="image">            
+                <img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Dog doing trick" />
+                <h3 id="bottomText">Newlyweds Sailing</h3>
+            </div>
+
+            <!--Mini tribute-->
+            <div>
+                <img src="images/YoungCoupleSkiSm.jpg" alt="skiiing couple" id="tribImg">
+                <h2>Experiences</h2>
+                <p>
+                    We will tell all our friends about this great way to spend a honeymoon.  Thanks for handling the 
+                    details, so we could enjoy this experience together.
+                </p>
+            </div>
+        </article>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
